@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P&PCafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>P&P Cafe</h1>
+    <form action="">
+        <div class="input">
+            <label for="username">Введите имя</label>
+            <input type="text" id="username">
+        </div>
+        <div class="input">
+            <label for="phoneNumber">Введите номер телефона</label>
+            <input type="text" id="phoneNumber">
+        </div>
+
+    </form>
+    <div class="inner">
+        <div class="item">
+            Блинчики - 150руб.
+            <img src="fake_meatpuncake.jpg" alt="блинчики с мясом">
+            <button class="btn" id="btn1">Положить в корзину</button>
+        </div>
+        <div>
+            Чизкейк - 300руб.
+            <img src="fake_cheesecake.jpg" alt="чизкейк">
+            <button class="btn" id="btn2">Положить в корзину</button>
+        </div>
+        <div class="item">
+            Сырники - 245руб.
+            <img src="fake_sirniki.jpeg" alt="сырники">
+            <button class="btn" id="btn3">Положить в корзину</button>
+        </div>
+        <div class="item">
+            Панкейки - 190руб.
+            <img src="fake_puncake.jpeg" alt="панкейки">
+            <button class="btn" id="btn4">Положить в корзину</button>
+        </div>
+        <ul id="itemlist"></ul>
+    </div>
+    <ul class="usercard" id="usercard">
+            Ваши заказы:
+        </ul>
+        <div id="result">
+            <button id="submit">
+                Купить
+            </button>
+        </div>
+    <h3 id="end_words">С заботой о вашем здоровье!</h3>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
